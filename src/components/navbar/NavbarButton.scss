@@ -1,0 +1,28 @@
+.navbar-button-container {
+    height: 100%;
+    background-color: var(--accent);
+
+    .navbar-button-container__content {
+        height: 100%;
+        padding: 0 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        font-weight: 700;
+        color: var(--accent);
+        background-color: var(--gray4);
+        outline: none;
+        border: none;
+        transition: var(--transition);
+        overflow: hidden;
+        cursor: pointer;
+
+        &:hover {
+            text-shadow: 0 0 1rem var(--accent-glow);
+            transform: translateY(-0.3rem);
+        }
+
+        &:active {
+            transform: translateY(-0.15rem);
+        }
+    }
+}
